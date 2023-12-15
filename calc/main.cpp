@@ -1,7 +1,4 @@
-#include "add.h"
-#include "sub.h"
-#include "mul.h"
-#include "div.h"
+#include "calculator.h"
 #include <iostream>
  
 int main(){

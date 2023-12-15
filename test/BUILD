@@ -1,10 +1,7 @@
 cc_test(
     name = "tests",
     srcs = ["test.cpp"],
-    deps = ["//calc:add",
-            "//calc:sub",
-            "//calc:mul",
-            "//calc:div",
+    deps = ["//calc:calculator",
          "@com_google_googletest//:gtest",
          "@com_google_googletest//:gtest_main",
     ],
